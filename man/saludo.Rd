@@ -1,10 +1,10 @@
 \name{saludo}
 \alias{saludo}
 \title{
-¡Saludo en varios idiomas!
+Saludo en varios idiomas!
 }
 \description{
-Este paquete está diseñado para saludar en castellano e inglés.
+Este paquete esta diseñado para saludar en castellano e ingles.
 }
 \usage{
 saludo(nombre="Name")
@@ -19,7 +19,7 @@ saludo(nombre="Name", momento = 1, idioma = "EN")
     -> nombre de la persona a saludar.
 }
   \item{momento}{
-    -> Representa el momento del día. 1 por la mañana, 2 por la tarde y resto por la noche. Por defecto = 1.
+    -> Representa el momento del dia. 1 por la mañana, 2 por la tarde y resto por la noche. Por defecto = 1.
 }
   \item{idioma}{
     -> Posibles valores = {"EN","ES"}. Por defecto "ES".
@@ -27,11 +27,11 @@ saludo(nombre="Name", momento = 1, idioma = "EN")
 }
 
 \value{
-  La función devuelve una cadena de texto con un saludo incluyendo el nombre pasado como parámetro.
+  La funcion devuelve una cadena de texto con un saludo incluyendo el nombre pasado como parametro.
 }
 
 \author{
-Salvador Hernández
+Salvador Hernandez <salherm1@gmail.com>
 }
 
 \examples{
